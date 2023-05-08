@@ -12,7 +12,7 @@ function Navbar() {
           <a href="#aboutme">About Me</a>
         </li>
         <li>
-          <a href="#Work">My Works</a>
+          <a href="#Work">Projects</a>
         </li>
         <li>
           <a href="#resume">Resume</a>

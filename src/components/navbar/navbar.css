@@ -1,5 +1,5 @@
 nav {
-    background-color: #333;
+    background-color: #60879F;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,6 +30,9 @@ nav {
     font-size: 18px;
   }
   
+  nav li:hover{
+    transform: scale(1.1);
+  }
   @media screen and (max-width: 768px) {
     nav {
       flex-direction: column;
