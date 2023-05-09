@@ -1,6 +1,8 @@
 import React from "react";
 import '../navbar/navbar.css';
 
+import respdf from '../assets/resume.pdf'
+
 function Navbar() {
   return (
     <nav>
@@ -15,7 +17,7 @@ function Navbar() {
           <a href="#Work">Projects</a>
         </li>
         <li>
-          <a href="#resume">Resume</a>
+          <a href={respdf} target="_blank">Resume</a>
         </li>
         <li>
           <a href="#Contact-me">Contact Me</a>
